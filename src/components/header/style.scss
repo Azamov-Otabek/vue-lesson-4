@@ -1,0 +1,48 @@
+header{
+    background: rgb(1,42,48);
+    background: linear-gradient(90deg, rgba(1,42,48,1) 41%, rgba(0,181,52,1) 73%);
+    padding: 20px 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-left{
+        display: flex;
+        align-items: end;
+        gap: 30px;
+
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            li{
+                a{
+                    color: var(--lightGreen);
+                    font-size: 20px;
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .nav-right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        i{
+            font-size: 24px;
+            color: white;
+        }
+
+        span{
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+        }
+    }
+}
